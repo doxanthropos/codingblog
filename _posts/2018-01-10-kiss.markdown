@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Minimalist Websites"
+date:   2018-01-10
+exzerpt: >
+  Where I read an article and come to the conclusion that minimalist websites are still possible and a good idea
+categories: [opinion, minimalism]
+---
+
+A few days ago I read an article on [Hackernoon](https://hackernoon.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5 "an article that I strongly advise to read") about possible security issues that come with the way many modern websites are built. A day later I found it [referenced](https://blog.fefe.de/?ts=a4abe6d3 "With a well deserved 'told you so' as the last words") on a blog that I read regularly read that obviously does not have this problem.
+
+[0]: http://motherfuckingwebsite.com/
+[1]: https://hackernoon.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5
+[2]: https://blog.fefe.de/
+[3]: https://mobiforge.com/research-analysis/the-web-is-doom
+[4]: https://www.ampproject.org/
+[5]: https://blog.fefe.de/?ts=a4abe6d3
+[6]: http://danhixon.github.io/
+[7]: http://blog.schockwellenreiter.de/

@@ -6,7 +6,7 @@ exzerpt: >
   Where I talk in length about this blog
   and what motivated its creation and its
   current form. You probably will not want to read this.
-categories: blog 100days
+categories: 100days
 ---
 
 Throughout the years that I have lived with and on the internet, I have started a lot of blogs, tumblr-accounts and similar projects. Some lived quite a while, others died quickly out of neglect.
