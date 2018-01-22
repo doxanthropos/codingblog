@@ -4,7 +4,7 @@ title:  "#CNC2018 Blog More: Pre-Mission"
 date:   2018-01-19
 exzerpt: >
   Where I get a mission to read 3 blog posts and write about what I read,
-  which is: one article about WebRTC, one about looping GIFs and one about creating a mailing list.
+  which is: one article about WebRTC, one about looping GIFs and one about creating a newsletter.
 categories: [cnc2018, blog-more]
 ---
 
