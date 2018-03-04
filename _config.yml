@@ -1,6 +1,7 @@
 # Site settings
 title: Doxanthropos
 email: doxanthropos@gmail.com
+author: Knut Jackowski
 description: > # this means to ignore newlines until "baseurl:"
   A blog about learning, coding and finding creative ways to do both.
 baseurl: "" # the subpath of your site, e.g. /blog/
