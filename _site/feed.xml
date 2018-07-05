@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Doxanthropos</title>
+    <description>A blog about learning, coding and finding creative ways to do both.
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 05 Jul 2018 15:14:51 +0200</pubDate>
+    <lastBuildDate>Thu, 05 Jul 2018 15:14:51 +0200</lastBuildDate>
+    <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Why learning about Game Development?</title>
+        <description>&lt;p&gt;I’m not a software developer (but that may change) and do not aspire to become a professional game developer. But I am taking the Harvard course on game development called &lt;a href=&quot;https://www.edx.org/course/cs50s-introduction-to-game-development&quot;&gt;GD50&lt;/a&gt;, which is a part of the growing collection of learning resources associated with the &lt;a href=&quot;https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x&quot;&gt;CS50 Introduction to Computer Science&lt;/a&gt; course at Harvard. Why bother to learn this?&lt;/p&gt;
+
+&lt;p&gt;Programming today to me is part hobby, part professional tool.
+I use my programming skills at work to automate processes and to provide features to online courses that are not possible with the features of the authoring tool we are using alone. So it is not at the center of my work, but an available tool that I sometimes use, sometimes not.
+In my free time, I like to learn and experiment with concepts and ideas new to me, like different programming paradigms or doing fun sketches with &lt;a href=&quot;https://processing.org/&quot;&gt;Processing&lt;/a&gt; or &lt;a href=&quot;https://p5js.org/&quot;&gt;p5&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;But when I started to learn programming the first time around (I did that more than once), my goal was to learn how to create games. I was a teenager and did what I could at that time with Amiga Basic on my first computer, an Amiga 500 (a few months ago I found some books on C and Assembler from that time and remembered, that I at least tried to learn them too. I had totally forgotten about that). But my intestests changes from tech to the humanities (yes, reading Goethe, Kant and all those dead white men somehow seemed more interesting to me then working on programs on my computer) and when I learned programming again in my thirties, it was the web that took my attention, as was not really a gamer anymore.
+In the last years, I have seen the rise of the indy game scene and with it the idea of games as art, games as a way of creative expression and my interest in making games myself grew again. I am not sure, that I will really create a single game, but I would like to know more about how to do so.
+On the professional side, I think there is a lot to learn in game development, that is transferable to other sides of development, be it web development or my current field of work, instructional design. Some of it has been called “gamification” in the last year and this seems to have had its hype, but I think taking a look at real game development instead of learning about gamification directly (which I have to some extent already done, of course), will help with questions like “How do I make something fun?”
+Another, not topic related cause might be also about fun: the cs50 courses are usually fun.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 05 Jul 2018 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2018/07/05/why-GD50/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/07/05/why-GD50/</guid>
+        
+        
+        <category>game-dev</category>
+        
+        <category>GD50</category>
+        
+      </item>
+    
+      <item>
+        <title>Game Idea: Scream Maze</title>
+        <description>&lt;p&gt;&lt;strong&gt;TLDR&lt;/strong&gt;: I thought about what I would like to built: A “horror” maze game, where you have to scream to move.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#will-there-be-a-maze&quot;&gt;Will there be a maze?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#vr-but-how&quot;&gt;VR, but how?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#screeeaam&quot;&gt;Screeeaam!!!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#next-steps&quot;&gt;Next Steps&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;will-there-be-a-maze&quot;&gt;Will there be a maze?&lt;/h2&gt;
+
+&lt;p&gt;So I have decided to be more productive and creative in my free time. But what exactly will that be? “Code more” even with the great help from the Codenewbie-community is something that has to be fleshed out.&lt;/p&gt;
+
+&lt;p&gt;One direction that I always wanted to explore since I started coding, but somehow never did until now, is game making. After stumbling upon more blog posts, articles and forums questions on making games than usual&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, I began to think about what kind of game I would like and also be able to do.&lt;/p&gt;
+
+&lt;p&gt;One simple idea that can be quite sophisticated in the execution is a maze, especially if it is to be explored in first person perspective. After having thought this, I immediatly thought about VR and at first was fine with that. So I will try to make a first person, maze solving game that can be played in VR (preferable with one of the cheaper VR sets&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;).&lt;/p&gt;
+
+&lt;h2 id=&quot;vr-but-how&quot;&gt;VR, but how?&lt;/h2&gt;
+
+&lt;p&gt;But VR, and especially the cheaper gear, has one problem: they only track rotational movement, not translational (in other words: you can choose where to look, but not move). So how does one move through a maze with this? Common solutions are: markers that you can focus/click to go in their direction or using a seperate handheld controller. I did not like the thought of both these solutions, because the marker solution is kind of clumsy, it does not make sense in the game worlds and because most people do not have a seperate handheld controller for their phones.&lt;/p&gt;
+
+&lt;p&gt;So I thought about the possibilities: what kinds of sensors does a phone have, that could be used? The rotatinal tracking is already in use with the VR. The touchscreen is not reachable, because it will be inside a headset. The buttons on the sides are different with different phones and also covered with the headset. GPS is not fine grained enough and also: it could be quite dangerous to make people move with a headset over their eyes. The camera? I have no idea how to reasonably map movement to the camera input. But what about sound input? Every phone has a mic. I only need to control speed anyway, so it could be mapped to the volume. But does that make any sense?&lt;/p&gt;
+
+&lt;h2 id=&quot;screeeaam&quot;&gt;Screeeaam!!!&lt;/h2&gt;
+
+&lt;p&gt;If the maze is in a horror setting, screaming while trying to escape does not seem to far fetched. So it might be fitting.&lt;/p&gt;
+
+&lt;p&gt;The moment, I really considered it an interesting idea to move through a maze by screaming, I remembered that I had heard about a game that was controlled by sound before: &lt;a href=&quot;https://vimeo.com/41629022&quot;&gt;“SCREAM ‘EM UP1”&lt;/a&gt;&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Of course I have no idea if this is a mechanic that works well or if it is fun, but I at least imagine it to be.&lt;/p&gt;
+
+&lt;p&gt;The game mechanic I imagine is this: you can change direction and look via moving your head and/or turning around and you can move by making noise, scream louder and you will be faster, be silent and you do not move at all.&lt;/p&gt;
+
+&lt;p&gt;One negative aspect of this mechanic will be that it can’t be played everywhere, because it will disturb people around you. If I were planning on making a game for the masses, I would see this as a problem, but since it is more for fun, for myself and if I succeed, for people who might like strange things, this does not concern me very much.&lt;/p&gt;
+
+&lt;p&gt;It will certainly be a challenge for me to develop and test something like this, because beside the technical challenges, I am a rather quiet person and do not like to make noise, but that is one part of why this idea intrigues me. Like you can see in the effect that the scream em up, that I mentioned had at the players, I think that this can be something that makes the player open up, dare to be heard and have fun.&lt;/p&gt;
+
+&lt;h2 id=&quot;next-steps&quot;&gt;Next Steps&lt;/h2&gt;
+
+&lt;p&gt;The next steps, after having this initial idea will be to plan the project, to choose the appropriate technology, basically the whole design part. Will I make my own game art, use free assets or try to find someone to team up with? Will I use &lt;a href=&quot;https://processing.org/&quot;&gt;Processing&lt;/a&gt; (which I know), &lt;a href=&quot;https://godotengine.org/&quot;&gt;Godot&lt;/a&gt; (which I don’t know, but which looks interesting and runs on Linux) or like many game creators &lt;a href=&quot;https://unity3d.com/&quot;&gt;Unity&lt;/a&gt; (which I do not know, but for which there are a lot of tutorials and courses, but which does not really run on Linux)&lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;. Will there be designed levels or will there be generated levels (I really need to watch the &lt;a href=&quot;https://www.youtube.com/watch?v=HyK_Q5rrcr4&quot;&gt;Coding Challenge on this topic&lt;/a&gt;), will there be enemies, treasure, time limits, multi-player options?&lt;/p&gt;
+
+&lt;h3 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h3&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;One of these articles, that I really recommend, is the entertaining &lt;a href=&quot;https://medium.com/@dreamertalin/the-faery-tale-adventure-a-personal-history-4fae0617a18d&quot;&gt;history of “The Faery Tale Adventure”&lt;/a&gt;. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;I only have a rather old phone (Galaxy 5S) and a 20€ headset for it, to use with google cardboard apps. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;I am not sure, where I first heard about this. It was one of the interviews the maker of this game, &lt;a href=&quot;http://janefriedhoff.com/&quot;&gt;Jane Friedhoff&lt;/a&gt;  gave on youtube, either the one with &lt;a href=&quot;https://www.youtube.com/watch?v=VIEwBm7PWQM&quot;&gt;Daniel Shiffman&lt;/a&gt; or the one with &lt;a href=&quot;https://www.youtube.com/watch?v=aH0aY5ilCfo&quot;&gt;Jonathan Holmes&lt;/a&gt;, both are worth watching. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot;&gt;
+      &lt;p&gt;There will definitively be sound and music. &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Wed, 07 Feb 2018 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2018/02/07/screammaze/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/02/07/screammaze/</guid>
+        
+        
+        <category>game-dev</category>
+        
+        <category>code-more</category>
+        
+      </item>
+    
+      <item>
+        <title>#CNC2018 Code More: Pre-Mission</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#what-has-worked&quot;&gt;What has worked?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#what-has-not-worked&quot;&gt;What has NOT worked?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#what-are-your-long-term-goals&quot;&gt;What are your long-term goals?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#what-are-your-short-term-goals&quot;&gt;What are your short-term goals?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Like I alread said in the &lt;a href=&quot;/2018/01/19/pre-mission-i/&quot;&gt;last post&lt;/a&gt;, I enrolled into the &lt;a href=&quot;http://2018.codenewbie.org/&quot;&gt;CodeNewbie 2018 Challenge&lt;/a&gt; not just for one, but for two goals: “Code More” and “Blog More”.&lt;/p&gt;
+
+&lt;p&gt;Like the BlogMore challenge, the CodeMore challenge also has a pre-mission. This pre-mission is to think about previous coding session and answer some questions about them, with the goal to better understand what works for me and what doesn’t. This seems to me like a great idea, as I have experience myself and seen with others, that it is crucial for any activity to find this understanding and use it to cultivate the desired activity or habit.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-has-worked&quot;&gt;What has worked?&lt;/h2&gt;
+
+&lt;h3 id=&quot;pair-programming&quot;&gt;Pair Programming&lt;/h3&gt;
+
+&lt;p&gt;The first bunch of coding sessions, that comes to my mind where I can identify something that worked was during the algorithm challenges of &lt;a href=&quot;http://freecodecamp.com/&quot;&gt;freeCodeCamp&lt;/a&gt;. Moste of them worked somehow in the sense that I was able to do them and had fun doing so, but a few of them stand out, because I was able to find somebody to pair with to practice pair programming on these challenges.&lt;/p&gt;
+
+&lt;p&gt;I had read about &lt;a href=&quot;http://www.extremeprogramming.org/rules/pair.html&quot;&gt;pair programming&lt;/a&gt; before and that it can be more productive than programming alone, because you can use the creativity and problem solving skills of two people at once and they do more than only add up to another. But it is one thing to read about such a practice and another to actually do it.&lt;/p&gt;
+
+&lt;p&gt;As a self tought programmer, who does not work as a programmer, I rarely have the opportunity to even talk about what I am doing extensively, because nearly no one would understand what it is and why I care. These pair programming sessions have been the exact opposite of that: we were both interested in the code and in solving the problem at hand, so bouncing ideas back and forth while regularly changing who is typing and who gives ideas about the directions to take was at the same time very effective and fun.&lt;/p&gt;
+
+&lt;h3 id=&quot;building-something-useful&quot;&gt;Building something useful&lt;/h3&gt;
+
+&lt;p&gt;At work, where I am not paid to code (I work as an elearning developer, which means I use a software called Articulate Storyline, that works a little similar to PowerPoint, to create elearning content), I have not often written code, but the few times, that I did, have felt very good. What motivated me in these situations was the knowledge, that my code would do something useful, that would enhance the learning experience of the people taking the courses that I was building.&lt;/p&gt;
+
+&lt;h3 id=&quot;creative-sketching&quot;&gt;Creative Sketching&lt;/h3&gt;
+
+&lt;p&gt;When I sit down to code in the evening, I mostly choose to do projects that can be categorized as “&lt;a href=&quot;https://en.wikipedia.org/wiki/Creative_coding&quot;&gt;creative coding&lt;/a&gt;”. Like the definition of creative coding says, without the goal to produce something functional, but instead something expressive. Like other forms of art, this kind of coding is usually done with sketches, that try out new ideas and variations of existing ones. This mindset of producing sketches, where the measure of quality is not some objective function, but rather the answer to the question “Do I like that?” tends to free my creativity in problem solving.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-has-not-worked&quot;&gt;What has NOT worked?&lt;/h2&gt;
+
+&lt;h3 id=&quot;tutorial-hell&quot;&gt;Tutorial Hell&lt;/h3&gt;
+
+&lt;p&gt;Yesterday I encountered an article, that summed up a big part of what I experience as not working in my coding practice. It is called &lt;a href=&quot;https://codeburst.io/digging-my-way-out-of-tutorial-hell-6dd5f9927384&quot;&gt;Digging my way out of tutorial hell&lt;/a&gt; and written by &lt;a href=&quot;https://codeburst.io/@zuzanak&quot;&gt;Zuzana K&lt;/a&gt;, who is also doing the CodeNewbie 2018 challenge. I think she describe the problem a lot better, than I could do, so I advise the reader to read her post.&lt;/p&gt;
+
+&lt;h3 id=&quot;time-management&quot;&gt;Time management&lt;/h3&gt;
+
+&lt;p&gt;Setting aside time for coding sounds easier than it is for me. Coding challenges or projects more then once fell short for me, because after a good start something got in the way and after that, I did not pick up again, either, with challenges, because it feld like a failure, that I did not want to think about further or with projects, because my mind was so out of the topic, that getting into it again felt like investing the same amount of time again.&lt;/p&gt;
+
+&lt;h3 id=&quot;too-many-unknowns&quot;&gt;Too many unknowns&lt;/h3&gt;
+
+&lt;p&gt;This third aspect of not working in the past is related to the second. When I choose a project, I more than once choose to do something that was so out of the reach of my current skills, that I lost faith that I would be able to do it and so stopped doing it. The experiences of failed starts in the past feed into that loss of faith in myself.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-are-your-long-term-goals&quot;&gt;What are your long-term goals?&lt;/h2&gt;
+
+&lt;p&gt;In the long run, I would like to do more coding at work, maybe even work as a programmer (as my work experience now is mainly in the line of elearning, I would like to combine the two in the most ideal case. So something like developing for a company like Codecademy or Treehouse would be great). But also indepenent from that. I would like to contribute to the open source world, either with own projects or by contributing to existing ones.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-are-your-short-term-goals&quot;&gt;What are your short-term goals?&lt;/h2&gt;
+
+&lt;p&gt;My short term goal for this challenge is to get into a more solid habit of regular coding and learning to trust my skills and ability to learn what I need to build something bigger than just variations of tutorials.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 22 Jan 2018 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2018/01/22/pre-mission-ii/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/01/22/pre-mission-ii/</guid>
+        
+        
+        <category>cnc2018</category>
+        
+        <category>code-more</category>
+        
+      </item>
+    
+      <item>
+        <title>#CNC2018 Blog More: Pre-Mission</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#the-tutorial-webrtc-video-chat-in-20-lines-of-javascript&quot;&gt;The Tutorial: WebRTC Video Chat in 20 Lines of JavaScript&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#the-explainer-drawing-from-noise-and-then-making-animated-loopy-gifs-from-there&quot;&gt;The Explainer: Drawing from noise, and then making animated loopy GIFs from there.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#the-project-how-i-set-up-an-automatic-weekly-blog-digest&quot;&gt;The Project: How I set up an automatic weekly blog digest&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#wrapping-up&quot;&gt;Wrapping Up&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I enrolled into the &lt;a href=&quot;http://2018.codenewbie.org/&quot;&gt;CodeNewbie 2018 Challenge&lt;/a&gt; not just for one, but for two goals: “Code More” and “Blog More”.&lt;/p&gt;
+
+&lt;p&gt;Both are activities, that I like to do, but fail to do as regularly as I would like to.&lt;/p&gt;
+
+&lt;p&gt;Before the first official mission starts, there is a “pre-mission” for both tracks. For the Blog More track it is to find three blog posts from three different categories: tutorial, explainer and project, read them and then write three things that I liked and three things that I might do differently.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-tutorial-webrtc-video-chat-in-20-lines-of-javascript&quot;&gt;The Tutorial: WebRTC Video Chat in 20 Lines of JavaScript&lt;/h2&gt;
+
+&lt;p&gt;For the tutorial, I had a look into my bookmarks, where I have a “to read” folder and found an article about &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API&quot;&gt;WebRTC&lt;/a&gt;: &lt;a href=&quot;https://www.pubnub.com/blog/2015-08-25-webrtc-video-chat-app-in-20-lines-of-javascript/&quot;&gt;WebRTC Video Chat in 20 Lines of JavaScript (Part 1)&lt;/a&gt;. This is a web technology, that I find interesting and want to learn more about, but did not actually do that for quite some time. For this reason, I had this article in my bookmarks, but have not followed the tutorial yet.&lt;/p&gt;
+
+&lt;p&gt;The first thing, that I like is that they take the time and space to explain how to set up a temporary local server for use in this tutorial. While it might be considered beside the actual topic, I have often experienced, that people who are new to web programming have trouble to find how to test their code, if it contains functionality, that will be blocked by the browser if it is not on a server.&lt;/p&gt;
+
+&lt;p&gt;Another part that I like about this article is that the code examples are hosted on github, so they are available also as raw files to copy and paste in case something goes wrong.&lt;/p&gt;
+
+&lt;p&gt;The third aspect of this article, that I like is that while it is short, as the name suggests, it ends with a complete functional app.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, I think I did not learn that much about &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API&quot;&gt;WebRTC&lt;/a&gt;. While it is good to have someone get their feet wet before exposing too much detail. At least a little more info about the protocol that this tutorial is based on would help getting the feeling to have learned something valuable.&lt;/p&gt;
+
+&lt;p&gt;This might be directly related to the fact that this article is somewhat of a marketing article for the pubnub service, which, as the tutorial shows makes using WebRTC really easy. That is nice for someone who wants to use WebRTC, but for someone learning, it might be a bit too easy and to oversimplified.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-explainer-drawing-from-noise-and-then-making-animated-loopy-gifs-from-there&quot;&gt;The Explainer: Drawing from noise, and then making animated loopy GIFs from there.&lt;/h2&gt;
+
+&lt;p&gt;There is a blog article, that I have read a few weeks ago, it is called “&lt;a href=&quot;https://necessarydisorder.wordpress.com/2017/11/15/drawing-from-noise-and-then-making-animated-loopy-gifs-from-there/&quot;&gt;Drawing from noise, and then making animated loopy GIFs from there.&lt;/a&gt;”.&lt;/p&gt;
+
+&lt;p&gt;In this article Etienne Jacob explains a nice trick to solve a common problem that arises, when you generate random animations and want to create animated gifs from these programs: looping gifs do look jerky and broken, when the last frame of the animation does not fit to the first. It is filed unter tutorials, but since it explains a common principle to achieve the desired effect, I would rather categorize it as an explanation.&lt;/p&gt;
+
+&lt;p&gt;The very first thing you see about this article is one amazing example of a gif that was produced with the technique covered in this very article. I like this very much, because the topic is visuals, so it is only fitting to lead with a great visual example.&lt;/p&gt;
+
+&lt;p&gt;The explanation itself goes from simple examples to rather complex programmatic art. This makes it easy to understand, but also useful for more experienced creative coders.&lt;/p&gt;
+
+&lt;p&gt;Also every example comes with a short explanation and a link to the source code. This is enough to understand whats going on and not to much, so that the whole article stays at a reasonable size.&lt;/p&gt;
+
+&lt;p&gt;It’s hard to find something that I would do another way, because this is a very good and useful article. Maybe I would include more links to other material, that goes deeper into the topics of randomness.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-project-how-i-set-up-an-automatic-weekly-blog-digest&quot;&gt;The Project: How I set up an automatic weekly blog digest&lt;/h2&gt;
+
+&lt;p&gt;As the title says, in &lt;a href=&quot;https://jvns.ca/blog/2017/12/28/making-a-weekly-newsletter/&quot;&gt;How I set up an automatic weekly blog digest&lt;/a&gt; Julia Evans writes about how (and not to forget: why) she set up and email newsletter based on her blog.&lt;/p&gt;
+
+&lt;p&gt;This might be of interest to other people doing this Blog More challenge!&lt;/p&gt;
+
+&lt;p&gt;What I like about not only this article, but about all of Julias posts and talks: she does not pretend to know everything just out of thin air. Instead she is always careful to include how she came to the knowledge that she has. This is one of the topics she is famous for: showing that it is good to admit, not to know something and to ask questions, even if they might sound stupid at first. For example in one of her older posts, she wrote about the answers she got on the questions “&lt;a href=&quot;https://jvns.ca/blog/2013/09/30/hacker-school-day-2-what-does-a-shell-even-do/&quot;&gt;What does a shell even do?&lt;/a&gt;” only shortly after followed by the question (and some answers) “&lt;a href=&quot;https://jvns.ca/blog/2013/10/02/day-3-what-does-the-linux-kernel-even-do/&quot;&gt;What does the Linux kernel even do?&lt;/a&gt;”.&lt;/p&gt;
+
+&lt;p&gt;So at least one of the paths to writing good blog posts seems to be to find a good question to answer (which must not necessarily look good at first glance), to find answers and to write about them in a way, which you would have understood before understanding the answer.&lt;/p&gt;
+
+&lt;p&gt;The process to set up the newsletter sounds simple and doable and the reasons for doing so make sense, especially that people asked her about it.&lt;/p&gt;
+
+&lt;h2 id=&quot;wrapping-up&quot;&gt;Wrapping Up&lt;/h2&gt;
+
+&lt;p&gt;I realize, that I have strayed from the path of the mission. I did not find 3 good aspects and 3 to make differently for every of the 3 articles. But I think I have had a good look into what it is that works with these articles and what doesn’t work.&lt;/p&gt;
+
+&lt;p&gt;I’m curious about the next (first) mission.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 19 Jan 2018 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2018/01/19/pre-mission-i/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/01/19/pre-mission-i/</guid>
+        
+        
+        <category>cnc2018</category>
+        
+        <category>blog-more</category>
+        
+      </item>
+    
+      <item>
+        <title>Happy New Year!</title>
+        <description>&lt;p&gt;Throughout the years that I have lived with and on the internet, I have started a lot of blogs, tumblr-accounts and similar projects. Some lived quite a while, others died quickly out of neglect.&lt;/p&gt;
+
+&lt;p&gt;This is one such start.&lt;/p&gt;
+
+&lt;p&gt;Instead of a political blog (&lt;a href=&quot;https://web.archive.org/web/20110421033029/http://doxanthropos.bplaced.net:80/&quot;&gt;done that&lt;/a&gt;) or a blog filled with random musings about life and elearning (&lt;a href=&quot;https://doxanthropos.wordpress.com/&quot;&gt;done that also&lt;/a&gt;) or other topics that might be worth blogging about, this will be centered around writing code and doing nice creative things with computers. Other tangential topics might sneak in, but the main goal for creating this is to have a &lt;a href=&quot;https://www.inventwithcode.com/start-a-developer-blog/&quot;&gt;developer blog&lt;/a&gt;/learners journal&lt;/p&gt;
+
+&lt;p&gt;But why start a blog like this, instead of posting articles on Facebook, Tumblr, Wordpress.com, Medium or any other social blogging platform out there? Why put stupid, simple, static html-files out there?&lt;/p&gt;
+
+&lt;p&gt;One reason is that it is fun. Blogging with &lt;a href=&quot;http://www.ringfahndung.de/reclaim-your-blog-nu/&quot;&gt;VIM&lt;/a&gt;, &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; and &lt;a href=&quot;http://surge.sh/&quot;&gt;Surge.sh&lt;/a&gt; is simplistic in a nice way (I already wrote abut this kind of simplicity &lt;a href=&quot;https://web.archive.org/web/20110511164245/http://doxanthropos.bplaced.net:80/2010/11/spartaner-am-rechner/&quot;&gt;on my oldest blog&lt;/a&gt;, a topic, that I might revisit here some day).&lt;/p&gt;
+
+&lt;p&gt;Another reason is the (maybe silly) idea to keep in control of my creation. Using a blogging service like Tumblr or Wordpress, or a social media platform like Facebook (or again Tumblr) always means, giving away your content into the hands of others, who might have the same ideas how to present it or how to frame it, but they also might not.&lt;/p&gt;
+
+&lt;p&gt;From a more mainstream media critical perspective, this has also the intent of being part of a small revolution, that has been active and fighting the change of what the web is. There are still people out there who think that the web might be something else than just a tool for Facebook and Google to operate their business. A network of people and websites, that are small, independent and free.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 01 Jan 2018 02:05:27 +0100</pubDate>
+        <link>http://localhost:4000/2018/01/01/happy-new-year/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/01/01/happy-new-year/</guid>
+        
+        
+        <category>100days</category>
+        
+      </item>
+    
+  </channel>
+</rss>

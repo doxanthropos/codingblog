@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+  <meta charset="utf-8" />
+  
+  <title>Game Idea: Scream Maze</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+</head>
+
+  <body id="top">
+    <!-- Header -->
+<header id="header">
+  <div class="inner">
+    <a href="/" class="image avatar"><img src="/images/avatar.jpg" alt="" /></a>
+    
+    <h1><strong>Doxanthropos</strong></h1>
+    A blog about learning, coding and finding creative ways to do both.
+
+    
+  </div>
+</header>
+
+    
+    <!-- Content = Main -->
+    <div id="main">
+<section>
+    <h1 class="post-title">Game Idea: Scream Maze</h1>
+  <article class="post-content">
+    <p><strong>TLDR</strong>: I thought about what I would like to built: A “horror” maze game, where you have to scream to move.</p>
+
+<ul>
+  <li><a href="#will-there-be-a-maze">Will there be a maze?</a></li>
+  <li><a href="#vr-but-how">VR, but how?</a></li>
+  <li><a href="#screeeaam">Screeeaam!!!</a></li>
+  <li><a href="#next-steps">Next Steps</a></li>
+</ul>
+
+<h2 id="will-there-be-a-maze">Will there be a maze?</h2>
+
+<p>So I have decided to be more productive and creative in my free time. But what exactly will that be? “Code more” even with the great help from the Codenewbie-community is something that has to be fleshed out.</p>
+
+<p>One direction that I always wanted to explore since I started coding, but somehow never did until now, is game making. After stumbling upon more blog posts, articles and forums questions on making games than usual<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>, I began to think about what kind of game I would like and also be able to do.</p>
+
+<p>One simple idea that can be quite sophisticated in the execution is a maze, especially if it is to be explored in first person perspective. After having thought this, I immediatly thought about VR and at first was fine with that. So I will try to make a first person, maze solving game that can be played in VR (preferable with one of the cheaper VR sets<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>).</p>
+
+<h2 id="vr-but-how">VR, but how?</h2>
+
+<p>But VR, and especially the cheaper gear, has one problem: they only track rotational movement, not translational (in other words: you can choose where to look, but not move). So how does one move through a maze with this? Common solutions are: markers that you can focus/click to go in their direction or using a seperate handheld controller. I did not like the thought of both these solutions, because the marker solution is kind of clumsy, it does not make sense in the game worlds and because most people do not have a seperate handheld controller for their phones.</p>
+
+<p>So I thought about the possibilities: what kinds of sensors does a phone have, that could be used? The rotatinal tracking is already in use with the VR. The touchscreen is not reachable, because it will be inside a headset. The buttons on the sides are different with different phones and also covered with the headset. GPS is not fine grained enough and also: it could be quite dangerous to make people move with a headset over their eyes. The camera? I have no idea how to reasonably map movement to the camera input. But what about sound input? Every phone has a mic. I only need to control speed anyway, so it could be mapped to the volume. But does that make any sense?</p>
+
+<h2 id="screeeaam">Screeeaam!!!</h2>
+
+<p>If the maze is in a horror setting, screaming while trying to escape does not seem to far fetched. So it might be fitting.</p>
+
+<p>The moment, I really considered it an interesting idea to move through a maze by screaming, I remembered that I had heard about a game that was controlled by sound before: <a href="https://vimeo.com/41629022">“SCREAM ‘EM UP1”</a><sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup></p>
+
+<p>Of course I have no idea if this is a mechanic that works well or if it is fun, but I at least imagine it to be.</p>
+
+<p>The game mechanic I imagine is this: you can change direction and look via moving your head and/or turning around and you can move by making noise, scream louder and you will be faster, be silent and you do not move at all.</p>
+
+<p>One negative aspect of this mechanic will be that it can’t be played everywhere, because it will disturb people around you. If I were planning on making a game for the masses, I would see this as a problem, but since it is more for fun, for myself and if I succeed, for people who might like strange things, this does not concern me very much.</p>
+
+<p>It will certainly be a challenge for me to develop and test something like this, because beside the technical challenges, I am a rather quiet person and do not like to make noise, but that is one part of why this idea intrigues me. Like you can see in the effect that the scream em up, that I mentioned had at the players, I think that this can be something that makes the player open up, dare to be heard and have fun.</p>
+
+<h2 id="next-steps">Next Steps</h2>
+
+<p>The next steps, after having this initial idea will be to plan the project, to choose the appropriate technology, basically the whole design part. Will I make my own game art, use free assets or try to find someone to team up with? Will I use <a href="https://processing.org/">Processing</a> (which I know), <a href="https://godotengine.org/">Godot</a> (which I don’t know, but which looks interesting and runs on Linux) or like many game creators <a href="https://unity3d.com/">Unity</a> (which I do not know, but for which there are a lot of tutorials and courses, but which does not really run on Linux)<sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup>. Will there be designed levels or will there be generated levels (I really need to watch the <a href="https://www.youtube.com/watch?v=HyK_Q5rrcr4">Coding Challenge on this topic</a>), will there be enemies, treasure, time limits, multi-player options?</p>
+
+<h3 id="footnotes">Footnotes</h3>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>One of these articles, that I really recommend, is the entertaining <a href="https://medium.com/@dreamertalin/the-faery-tale-adventure-a-personal-history-4fae0617a18d">history of “The Faery Tale Adventure”</a>. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>I only have a rather old phone (Galaxy 5S) and a 20€ headset for it, to use with google cardboard apps. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>I am not sure, where I first heard about this. It was one of the interviews the maker of this game, <a href="http://janefriedhoff.com/">Jane Friedhoff</a>  gave on youtube, either the one with <a href="https://www.youtube.com/watch?v=VIEwBm7PWQM">Daniel Shiffman</a> or the one with <a href="https://www.youtube.com/watch?v=aH0aY5ilCfo">Jonathan Holmes</a>, both are worth watching. <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:4">
+      <p>There will definitively be sound and music. <a href="#fnref:4" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </article>
+  <p class="post-meta">Feb 7, 2018
+    
+    
+    <a href="/categories/#game-dev">game-dev</a>
+    &nbsp;
+    
+    <a href="/categories/#code-more">code-more</a>
+    
+    
+  </p>
+  
+</section>
+</div>
+
+    
+    		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+				  <ul class="icons">
+				    <li><a href="/feed.xml" class="icon fa-rss"><span class="label">Feed</span></a></li>
+				    
+				    <li><a href="https://twitter/doxanthropos" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+				    
+				    
+				    <li><a href="https://github.com/doxanthropos" class="icon fa-github"><span class="label">Github</span></a></li>
+				    
+				    
+				    
+				    <li><a href="mailto:doxanthropos@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+				    
+					</ul>
+				  <ul class="copyright">
+				    
+				    <li>&copy; Knut Jackowski</li>
+				    
+				    <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+    
+    
+    <!-- Scripts -->
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/jquery.poptrox.min.js"></script>
+    <script src="/assets/js/skel.min.js"></script>
+    <script src="/assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="/assets/js/main.js"></script>
+    
+  </body>
+</html>
+

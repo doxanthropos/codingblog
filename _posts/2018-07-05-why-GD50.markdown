@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Why learning about Game Development?"
+date:   2018-07-05
+exzerpt: >
+  Recently I enrolled into the online course GD50 from Harvard to learn more about game development. But why?
+categories: [game-dev, GD50]
+---
+
+I'm not a software developer (but that may change) and do not aspire to become a professional game developer. But I am taking the Harvard course on game development called [GD50][gd50], which is a part of the growing collection of learning resources associated with the [CS50 Introduction to Computer Science][cs50] course at Harvard. Why bother to learn this?
+
+Programming today to me is part hobby, part professional tool.
+I use my programming skills at work to automate processes and to provide features to online courses that are not possible with the features of the authoring tool we are using alone. So it is not at the center of my work, but an available tool that I sometimes use, sometimes not.
+In my free time, I like to learn and experiment with concepts and ideas new to me, like different programming paradigms or doing fun sketches with [Processing][processing] or [p5][p5].
+
+But when I started to learn programming the first time around (I did that more than once), my goal was to learn how to create games. I was a teenager and did what I could at that time with Amiga Basic on my first computer, an Amiga 500 (a few months ago I found some books on C and Assembler from that time and remembered, that I at least tried to learn them too. I had totally forgotten about that). But my intestests changes from tech to the humanities (yes, reading Goethe, Kant and all those dead white men somehow seemed more interesting to me then working on programs on my computer) and when I learned programming again in my thirties, it was the web that took my attention, as was not really a gamer anymore.
+In the last years, I have seen the rise of the indy game scene and with it the idea of games as art, games as a way of creative expression and my interest in making games myself grew again. I am not sure, that I will really create a single game, but I would like to know more about how to do so.
+On the professional side, I think there is a lot to learn in game development, that is transferable to other sides of development, be it web development or my current field of work, instructional design. Some of it has been called "gamification" in the last year and this seems to have had its hype, but I think taking a look at real game development instead of learning about gamification directly (which I have to some extent already done, of course), will help with questions like "How do I make something fun?"
+Another, not topic related cause might be also about fun: the cs50 courses are usually fun.
+
+[gd50]: https://www.edx.org/course/cs50s-introduction-to-game-development
+[cs50]: https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x
+[processing]: https://processing.org/
+[p5]: https://p5js.org/
