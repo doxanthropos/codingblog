@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+  <meta charset="utf-8" />
+  
+  <title>GD50 Lecture 1 - Pong: What I have learned</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+</head>
+
+  <body id="top">
+    <!-- Header -->
+<header id="header">
+  <div class="inner">
+    <a href="/" class="image avatar"><img src="/images/avatar.jpg" alt="" /></a>
+    
+    <h1><strong>Doxanthropos</strong></h1>
+    A blog about learning, coding and finding creative ways to do both.
+
+    
+  </div>
+</header>
+
+    
+    <!-- Content = Main -->
+    <div id="main">
+<section>
+    <h1 class="post-title">GD50 Lecture 1 - Pong: What I have learned</h1>
+  <article class="post-content">
+    <ul>
+  <li><a href="#delta-time">Delta Time</a></li>
+  <li><a href="#versions-of-löve2d-matter">Versions of Löve2D matter</a></li>
+  <li><a href="#virtual-width-and-height">Virtual Width and Height</a></li>
+  <li><a href="#using-max-and-min-functions-for-movement-boundaries">Using Max and Min Functions for Movement Boundaries</a></li>
+  <li><a href="#state-machines-and-game-state">State Machines and Game State</a></li>
+</ul>
+
+<h1 id="delta-time">Delta Time</h1>
+
+<p>Not to confuse with the <a href="https://www.youtube.com/watch?v=ijfg5wRZ_t0">song by the same name</a> by the band CAPITAL PUNISHMENT (where Ben Stiller made Punkrock in his youth), <a href="https://en.wikipedia.org/wiki/Delta_timing">delta time</a> refers to the time delay between update of the game state.
+Using delta time to modify the speed of objects allows for a game to have the same playing speed, even when the framerate varies due to hardware differences. So for example in the Pong example, the speed of the ball has a speed variable set to 200 that is always multiplied by delta time in the actual game. Delta time is <a href="https://love2d.org/wiki/dt">provided by Löve2D</a> through the love.update() function.</p>
+
+<h1 id="versions-of-löve2d-matter">Versions of Löve2D Matter</h1>
+
+<p>Löve2D is very actively developed, which makes itself noticable in frequent changes.
+Colton wrote the code for the Pong versions starting in January this year (2018) and Löve2D had one version change since then. This version change broke the <a href="https://github.com/Ulydev/push">push</a> library and the color settings of these examples.
+So it seems prudent, to always note the version of Löve2D that was used to create a game to be able to run it with the same version of Löve2D or to look for changes in the engine to make it run on newer versions.
+Luckily the documentation of Löve2D takes care of noting these changes in an easy to find way at the top of every function that was subject to change in the past:
+<img src="/images/posts/love.color.png" alt="A screenshot showing a notification about changed behaviour in a Löve2D function" /></p>
+
+<h1 id="virtual-width-and-height">Virtual Width and Height</h1>
+
+<p>Using the <a href="https://github.com/Ulydev/push">push</a> library, it is possible to use a virtual resolution for a game. This virtual resolution will be mapped to the real resolution. So you define a width and a hight for your game to run on, that will produce a game window of this size, but also define a virtual width and a virtual height, that will actually be used for calculations and display in the game.
+In the Pong example, Colton uses a significantly smaller virtual resolution for the game to achieve a pixely retro look.</p>
+
+<h1 id="using-max-and-min-functions-for-movement-boundaries">Using max and min functions for movement boundaries</h1>
+
+<p>This one is quite easy and I am a little embarrassed, that I needed to learn it here:
+When you have player movement, like the paddle in Pong, you will want to restrict that movement to the actual game screen and not allow the paddle to leave it.
+I have until now usually done that using a second conditional inside the conditional that evaluates the players keypresses, like this:</p>
+
+<div class="language-lua highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="n">love</span><span class="p">.</span><span class="n">keyboard</span><span class="p">.</span><span class="n">isDown</span><span class="p">(</span><span class="s1">'w'</span><span class="p">)</span> <span class="k">then</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">player1Y</span> <span class="o">+</span> <span class="o">-</span><span class="n">PADDLE_SPEED</span> <span class="o">*</span> <span class="n">dt</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="k">then</span>
+    <span class="n">player1Y</span> <span class="o">=</span> <span class="mi">0</span>
+  <span class="k">else</span>
+    <span class="n">player1Y</span> <span class="o">=</span> <span class="n">player1Y</span> <span class="o">+</span> <span class="o">-</span><span class="n">PADDLE_SPEED</span> <span class="o">*</span> <span class="n">dt</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div></div>
+<p>As the headline says, this can be done much simpler using min or max at these boundaries, like here:</p>
+
+<div class="language-lua highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="n">love</span><span class="p">.</span><span class="n">keyboard</span><span class="p">.</span><span class="n">isDown</span><span class="p">(</span><span class="s1">'w'</span><span class="p">)</span> <span class="k">then</span>
+  <span class="n">player1Y</span> <span class="o">=</span> <span class="nb">math.max</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">player1Y</span> <span class="o">+</span> <span class="o">-</span><span class="n">PADDLE_SPEED</span> <span class="o">*</span> <span class="n">dt</span><span class="p">)</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<h1 id="state-machines-and-game-state">State Machines and Game State</h1>
+
+<p>Colton uses the concept of a <a href="https://en.wikipedia.org/wiki/Finite-state_machine">state machine</a> for the different states a game can have, which are in the Pong example the “serve”-state, where the ball stands still, but it is defined in which direction it will move when the player starts the game by pressing “enter” and the “play”-state, in which the ball is on the move until one of the players scores a point.
+At this point it seems a bit of overdefining to use this concept here, as the two states are easily undrestood and also coded, without thinking in these more abstract computer science terms. I suppose this will change with games that are more complex then Pong.</p>
+
+<p>This is also one of the many points where this first lecture, while walking through making a Pong clone differs significantly from the 1001 Pong clone tutorials that you can find on the internets: Odgen is clearly building a foundation to work with in more complex games in the future lectures.</p>
+
+<h1 id="sfxr-bfxr-tool-for-simple-sound-effects">sfxr (bfxr) Tool for Simple Sound Effects</h1>
+
+<p>Another part that is often missing from these simple “Build a Pong clone with X in X minutes” tutorials is sound.
+For minimalist retro games, like Pong and probably most of the other games of this course, there is a nice tool to generate random game sounds, called <a href="https://www.bfxr.net/">bfxr</a>, that is easy to use and is based on the slightly simpler <a href="http://www.drpetter.se/project_sfxr.html">sfxr</a>, that I will use, because it has a Linux version.</p>
+
+<p>That’s it for the first lecture. I think it was quite entertaining and helpful.</p>
+
+<p>Let’s see what the other lectures will bring.</p>
+
+
+  </article>
+  <p class="post-meta">Jul 12, 2018
+    
+    
+    <a href="/categories/#game-dev">game-dev</a>
+    &nbsp;
+    
+    <a href="/categories/#GD50">GD50</a>
+    &nbsp;
+    
+    <a href="/categories/#lua">lua</a>
+    &nbsp;
+    
+    <a href="/categories/#love2d">love2d</a>
+    
+    
+  </p>
+  
+</section>
+</div>
+
+    
+    		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+				  <ul class="icons">
+				    <li><a href="/feed.xml" class="icon fa-rss"><span class="label">Feed</span></a></li>
+				    
+				    <li><a href="https://twitter/doxanthropos" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+				    
+				    
+				    <li><a href="https://github.com/doxanthropos" class="icon fa-github"><span class="label">Github</span></a></li>
+				    
+				    
+				    
+				    <li><a href="mailto:doxanthropos@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+				    
+					</ul>
+				  <ul class="copyright">
+				    
+				    <li>&copy; Knut Jackowski</li>
+				    
+				    <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+    
+    
+    <!-- Scripts -->
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/jquery.poptrox.min.js"></script>
+    <script src="/assets/js/skel.min.js"></script>
+    <script src="/assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="/assets/js/main.js"></script>
+    
+  </body>
+</html>
+

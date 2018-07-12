@@ -6,9 +6,90 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 Jul 2018 15:14:51 +0200</pubDate>
-    <lastBuildDate>Thu, 05 Jul 2018 15:14:51 +0200</lastBuildDate>
+    <pubDate>Thu, 12 Jul 2018 16:36:19 +0200</pubDate>
+    <lastBuildDate>Thu, 12 Jul 2018 16:36:19 +0200</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>GD50 Lecture 1 - Pong: What I have learned</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#delta-time&quot;&gt;Delta Time&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#versions-of-löve2d-matter&quot;&gt;Versions of Löve2D matter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#virtual-width-and-height&quot;&gt;Virtual Width and Height&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#using-max-and-min-functions-for-movement-boundaries&quot;&gt;Using Max and Min Functions for Movement Boundaries&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#state-machines-and-game-state&quot;&gt;State Machines and Game State&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;delta-time&quot;&gt;Delta Time&lt;/h1&gt;
+
+&lt;p&gt;Not to confuse with the &lt;a href=&quot;https://www.youtube.com/watch?v=ijfg5wRZ_t0&quot;&gt;song by the same name&lt;/a&gt; by the band CAPITAL PUNISHMENT (where Ben Stiller made Punkrock in his youth), &lt;a href=&quot;https://en.wikipedia.org/wiki/Delta_timing&quot;&gt;delta time&lt;/a&gt; refers to the time delay between update of the game state.
+Using delta time to modify the speed of objects allows for a game to have the same playing speed, even when the framerate varies due to hardware differences. So for example in the Pong example, the speed of the ball has a speed variable set to 200 that is always multiplied by delta time in the actual game. Delta time is &lt;a href=&quot;https://love2d.org/wiki/dt&quot;&gt;provided by Löve2D&lt;/a&gt; through the love.update() function.&lt;/p&gt;
+
+&lt;h1 id=&quot;versions-of-löve2d-matter&quot;&gt;Versions of Löve2D Matter&lt;/h1&gt;
+
+&lt;p&gt;Löve2D is very actively developed, which makes itself noticable in frequent changes.
+Colton wrote the code for the Pong versions starting in January this year (2018) and Löve2D had one version change since then. This version change broke the &lt;a href=&quot;https://github.com/Ulydev/push&quot;&gt;push&lt;/a&gt; library and the color settings of these examples.
+So it seems prudent, to always note the version of Löve2D that was used to create a game to be able to run it with the same version of Löve2D or to look for changes in the engine to make it run on newer versions.
+Luckily the documentation of Löve2D takes care of noting these changes in an easy to find way at the top of every function that was subject to change in the past:
+&lt;img src=&quot;/images/posts/love.color.png&quot; alt=&quot;A screenshot showing a notification about changed behaviour in a Löve2D function&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;virtual-width-and-height&quot;&gt;Virtual Width and Height&lt;/h1&gt;
+
+&lt;p&gt;Using the &lt;a href=&quot;https://github.com/Ulydev/push&quot;&gt;push&lt;/a&gt; library, it is possible to use a virtual resolution for a game. This virtual resolution will be mapped to the real resolution. So you define a width and a hight for your game to run on, that will produce a game window of this size, but also define a virtual width and a virtual height, that will actually be used for calculations and display in the game.
+In the Pong example, Colton uses a significantly smaller virtual resolution for the game to achieve a pixely retro look.&lt;/p&gt;
+
+&lt;h1 id=&quot;using-max-and-min-functions-for-movement-boundaries&quot;&gt;Using max and min functions for movement boundaries&lt;/h1&gt;
+
+&lt;p&gt;This one is quite easy and I am a little embarrassed, that I needed to learn it here:
+When you have player movement, like the paddle in Pong, you will want to restrict that movement to the actual game screen and not allow the paddle to leave it.
+I have until now usually done that using a second conditional inside the conditional that evaluates the players keypresses, like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-lua highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;love&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;keyboard&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;isDown&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'w'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;player1Y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PADDLE_SPEED&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;player1Y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;player1Y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;player1Y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PADDLE_SPEED&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dt&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;As the headline says, this can be done much simpler using min or max at these boundaries, like here:&lt;/p&gt;
+
+&lt;div class=&quot;language-lua highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;love&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;keyboard&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;isDown&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'w'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;player1Y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;math.max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;player1Y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PADDLE_SPEED&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;state-machines-and-game-state&quot;&gt;State Machines and Game State&lt;/h1&gt;
+
+&lt;p&gt;Colton uses the concept of a &lt;a href=&quot;https://en.wikipedia.org/wiki/Finite-state_machine&quot;&gt;state machine&lt;/a&gt; for the different states a game can have, which are in the Pong example the “serve”-state, where the ball stands still, but it is defined in which direction it will move when the player starts the game by pressing “enter” and the “play”-state, in which the ball is on the move until one of the players scores a point.
+At this point it seems a bit of overdefining to use this concept here, as the two states are easily undrestood and also coded, without thinking in these more abstract computer science terms. I suppose this will change with games that are more complex then Pong.&lt;/p&gt;
+
+&lt;p&gt;This is also one of the many points where this first lecture, while walking through making a Pong clone differs significantly from the 1001 Pong clone tutorials that you can find on the internets: Odgen is clearly building a foundation to work with in more complex games in the future lectures.&lt;/p&gt;
+
+&lt;h1 id=&quot;sfxr-bfxr-tool-for-simple-sound-effects&quot;&gt;sfxr (bfxr) Tool for Simple Sound Effects&lt;/h1&gt;
+
+&lt;p&gt;Another part that is often missing from these simple “Build a Pong clone with X in X minutes” tutorials is sound.
+For minimalist retro games, like Pong and probably most of the other games of this course, there is a nice tool to generate random game sounds, called &lt;a href=&quot;https://www.bfxr.net/&quot;&gt;bfxr&lt;/a&gt;, that is easy to use and is based on the slightly simpler &lt;a href=&quot;http://www.drpetter.se/project_sfxr.html&quot;&gt;sfxr&lt;/a&gt;, that I will use, because it has a Linux version.&lt;/p&gt;
+
+&lt;p&gt;That’s it for the first lecture. I think it was quite entertaining and helpful.&lt;/p&gt;
+
+&lt;p&gt;Let’s see what the other lectures will bring.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 12 Jul 2018 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2018/07/12/from-lecture01-pong/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/07/12/from-lecture01-pong/</guid>
+        
+        
+        <category>game-dev</category>
+        
+        <category>GD50</category>
+        
+        <category>lua</category>
+        
+        <category>love2d</category>
+        
+      </item>
     
       <item>
         <title>Why learning about Game Development?</title>
