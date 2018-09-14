@@ -51,3 +51,5 @@ Semantic HTML is good.
 [rrss]: https://ar.al/2018/06/29/reclaiming-rss/
 [feedreader-linux]: https://www.tecmint.com/best-rss-feed-readers-for-linux/
 [brutalanti]: https://www.nngroup.com/articles/brutalism-antidesign/
+
+http://stefannibrasil.me/refer-links/

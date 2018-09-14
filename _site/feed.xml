@@ -6,159 +6,74 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 05 Sep 2018 21:11:37 +0200</pubDate>
-    <lastBuildDate>Wed, 05 Sep 2018 21:11:37 +0200</lastBuildDate>
+    <pubDate>Fri, 14 Sep 2018 12:48:15 +0200</pubDate>
+    <lastBuildDate>Fri, 14 Sep 2018 12:48:15 +0200</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
-        <title>A Blog: Static, minimalist, with Feed</title>
-        <description>&lt;h1 id=&quot;goals&quot;&gt;Goals&lt;/h1&gt;
+        <title>Caring Games</title>
+        <description>&lt;p&gt;This is a personal compilation of the answers to this question:&lt;/p&gt;
 
-&lt;h2 id=&quot;static&quot;&gt;Static&lt;/h2&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;de&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;I want &amp;quot;healing&amp;quot; to be a genre of games. It&amp;#39;s means they&amp;#39;re touching, gentle, warm and/or make you feel healed when you&amp;#39;re done. Are there any games you&amp;#39;d put in this category? (They can still be intense or even scary at times, but overall healing.)&lt;/p&gt;&amp;mdash; Der Zack (@williamzwood) &lt;a href=&quot;https://twitter.com/williamzwood/status/1039062614687416320?ref_src=twsrc%5Etfw&quot;&gt;10. September 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 
-&lt;h2 id=&quot;semantic&quot;&gt;Semantic&lt;/h2&gt;
+&lt;p&gt;Probably the thread will be longer and have more entries in it, that would deserve to be mentioned, when you go there, but even the list I have here is enough food for thought (and healing). I put it here to have a place to find it outside of the fleeting nature of Twitter.&lt;/p&gt;
 
-&lt;h2 id=&quot;accessable&quot;&gt;Accessable&lt;/h2&gt;
+&lt;p&gt;First thing I read was this &lt;a href=&quot;http://carewave.games/manifesto/&quot;&gt;Carewave&lt;/a&gt;-manifesto. Great thoughts there.&lt;/p&gt;
 
-&lt;h2 id=&quot;minimalist&quot;&gt;Minimalist&lt;/h2&gt;
-
-&lt;h2 id=&quot;with-a-feed&quot;&gt;With a Feed&lt;/h2&gt;
-
-&lt;h3 id=&quot;why-we-need-rss&quot;&gt;Why we need rss&lt;/h3&gt;
+&lt;p&gt;So this is an incomplete, unordered list of games:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ar.al/2018/06/29/reclaiming-rss/&quot;&gt;Reclaiming RSS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://inter.itch.io/i-feel-so-lost&quot;&gt;I Feel So Lost&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/719660/Monster_Garden/&quot;&gt;Monster Garden&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://goose.game/&quot;&gt;Untitled Goose Game&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.animal-crossing.com/&quot;&gt;Animal Crossing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mcccclean.itch.io/get-comfortable&quot;&gt;Get Comfortable&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.donutcounty.com/&quot;&gt;Donut Country&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Katamari&quot;&gt;Katamari&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apophenia-23.itch.io/reditum&quot;&gt;Reditum&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.moddb.com/games/soma/features/the-best-mods-that-remove-enemies-from-games&quot;&gt;Mods that remove enemies from games&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/705450/Wunderdoktor/&quot;&gt;Wunderdoktor&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://w.itch.io/a-wish-for-something-better&quot;&gt;A Wish for Something Better&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ea.com/games/unravel&quot;&gt;Unravel&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://truluv.ai/selfcare&quot;&gt;SelfCare&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/296070/MIND_Path_to_Thalamus_Enhanced_Edition/&quot;&gt;MIND: Path to Thalamus&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://thatgamecompany.com/journey/&quot;&gt;Journey&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/436500/Diaries_of_a_Spaceport_Janitor/&quot;&gt;Diaries of a Spaceport Janitor&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://slimerancher.com/&quot;&gt;Slime Rancher&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://undertale.com/&quot;&gt;Undertale&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/501300/What_Remains_of_Edith_Finch/&quot;&gt;What Remains of Edith Finch&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/384190/ABZU/&quot;&gt;ABZU&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.okami-game.com/&quot;&gt;Okami&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://luna.funomena.com/&quot;&gt;Luna&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/822190/Little_Bug/&quot;&gt;Little Bug&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.nightinthewoods.com/&quot;&gt;Night In The Woods&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/442770/The_Minims/&quot;&gt;The Minims&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://melessthanthree.itch.io/lucah&quot;&gt;Lucah: Born of a Dream&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://thatgamecompany.com/flower/&quot;&gt;Flower&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.alistairaitcheson.com/games/thebookritual.html&quot;&gt;The Book Ritual&lt;/a&gt;&lt;a href=&quot;https://agaitcheson.itch.io/the-book-ritual&quot;&gt;(on itch.io)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.thechineseroom.co.uk/games/everybodys-gone-to-the-rapture/&quot;&gt;Everybody’s Gone to the Rapture&lt;/a&gt;&lt;a href=&quot;https://store.steampowered.com/app/417880/Everybodys_Gone_to_the_Rapture/&quot;&gt;(on steam)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=csOWqW6Qu8c&quot;&gt;The Collage Atlas (still in dev)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.zynga.com/games/farmville&quot;&gt;FarmVille&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stardewvalley.net/&quot;&gt;Stardew Valley&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ratking.itch.io/solitude&quot;&gt;Solitune&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vaidap.itch.io/ow&quot;&gt;Competitive Cuddling Simulator&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;static-bloggin-for-the-win&quot;&gt;Static bloggin for the win&lt;/h1&gt;
+&lt;p&gt;An article: &lt;a href=&quot;http://www.borngeek.co.za/florence-this-mobile-game-rekindled-something-in-my-soul/&quot;&gt;Florence – This Mobile Game Rekindled Something in My Soul&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;blogs-that-are-in-one-or-more-aspects-good-an-incomplete-list&quot;&gt;Blogs that are in one or more aspects good (an incomplete list)&lt;/h1&gt;
+&lt;p&gt;A talk: &lt;a href=&quot;https://www.youtube.com/watch?v=DBw-6UfPxXs&quot;&gt;Intimacy Games: Unlocking The Inner Heart Of Fighting Games&lt;/a&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;https://blog.fefe.de&lt;/li&gt;
-  &lt;li&gt;http://blog.schockwellenreiter.de/&lt;/li&gt;
-  &lt;li&gt;http://chneukirchen.org/trivium/&lt;/li&gt;
-  &lt;li&gt;http://scripting.com/&lt;/li&gt;
-  &lt;li&gt;https://daringfireball.net/&lt;/li&gt;
-  &lt;li&gt;http://www.thingsmagazine.net/&lt;/li&gt;
-  &lt;li&gt;http://www.rebeccablood.net/&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;minimalism-and-brutalism&quot;&gt;Minimalism and Brutalism&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://motherfuckingwebsite.com/&quot;&gt;Motherfuckingwebsite&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://brutalist-web.design/&quot;&gt;Brutalist Web Design&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;https://www.uxbrutalism.com/&lt;/li&gt;
-  &lt;li&gt;https://www.nngroup.com/articles/brutalism-antidesign/&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;While brutalist design is in many ways refreshing, minimalism seems to be more the thing that I want to do here. But some of the “restrictions” of &lt;a href=&quot;https://brutalist-web.design/&quot;&gt;Brutalist Web Design&lt;/a&gt; are still reasonable to adhere to (they chime well with the message of the &lt;a href=&quot;http://motherfuckingwebsite.com/&quot;&gt;Motherfuckingwebsite&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h1 id=&quot;semantics&quot;&gt;Semantics&lt;/h1&gt;
-
-&lt;p&gt;Semantic HTML is good.&lt;/p&gt;
-
+&lt;p&gt;While his games is not available yet, through &lt;a href=&quot;https://twitter.com/jacopocolo&quot;&gt;@jacopocolo&lt;/a&gt; I learned about the artist James Turrell.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 05 Sep 2018 21:11:37 +0200</pubDate>
-        <link>http://localhost:4000/2018/09/05/rss/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/09/05/rss/</guid>
-        
-        
-        <category>web-dev</category>
-        
-      </item>
-    
-      <item>
-        <title>Stoic And Static</title>
-        <description>&lt;p&gt;Epictet says: Get you own website!
-He also says: Don’t allow comments.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 05 Sep 2018 15:07:44 +0200</pubDate>
-        <link>http://localhost:4000/2018/09/05/stoic-and-static/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/09/05/stoic-and-static/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Interactive Storytelling with Twine: Making Background Music Work Even in Chrome</title>
-        <description>&lt;p&gt;I will first explain the problem, then show how background music is usually done and at last show how to fix the Chrome issue. If you are only interested in the fix, because you already know the rest, you can jump to &lt;a href=&quot;#solving-the-chrome-autoplay-issue&quot;&gt;Solving the Chrome Autoplay Issue&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;For those who do not know what &lt;a href=&quot;http://twinery.org/&quot;&gt;Twine&lt;/a&gt; is, Liz England has written a &lt;a href=&quot;http://www.lizengland.com/blog/2015/03/what-is-twine-for-developers/&quot;&gt;good article that answers this question&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;TLDL:&lt;/strong&gt; To have continuous background music work in Chrome, you ha&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#the-problem&quot;&gt;The Problem&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#background-audio&quot;&gt;Background Audio&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#solving-the-chrome-autoplay-issue&quot;&gt;Solving the Chrome Autoplay Issue&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;the-problem&quot;&gt;The Problem&lt;/h1&gt;
-
-&lt;p&gt;A lot of games and interactive stories utilize background music or sound to generate atmosphere, beginning at the very start of the game.
-Sadly Google Chrome, in an effort to stop make the web better, by blocking autoplay for videos and sound, has also blocked any form of music or sound, that would be played before the first player interaction.
-They have written about it in two articles:
-&lt;a href=&quot;https://developers.google.com/web/updates/2017/09/autoplay-policy-changes&quot;&gt;Autoplay Policy Changes&lt;/a&gt; and &lt;a href=&quot;https://blog.google/products/chrome/improving-autoplay-chrome/&quot;&gt;Improving Autoplay in Chrome&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The basic change is this: audio and video will not start in Chrome, before the first user interaction happened. An exception to this will be some websites, determined by some self learning algorithm, that will allow autoplay sometimes, based on if the user or many other users already listened to sound or watched video on that site before.&lt;/p&gt;
-
-&lt;p&gt;This makes two kinds of people unhappy for seemingly opposing reasons:&lt;/p&gt;
-
-&lt;p&gt;One group of people think that autoplay is the devil and should be banned from all websites with no exceptions. These people do not like the self learning exception generator very much.&lt;/p&gt;
-
-&lt;p&gt;The other group are the people who have develope(d) games and elearning content for the web, that now lost audio functionality it once had. There are some ways to still have the same effects, like I am showing below for background music in Twine, but these have to be implemented and creators of games and elearning content usually move on to other projects, after completing one. Revisiting all past projects is not an option for most of us.&lt;/p&gt;
-
-&lt;p&gt;So to narrow the problem a bit down to the specific aspect promised in the title: There are some easy ways to implement background music in Twine, that have been used and taught for some time, that now do not work anymore.&lt;/p&gt;
-
-&lt;h1 id=&quot;background-audio&quot;&gt;Background Audio&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&quot;/images/posts/20180805-story-overview.png&quot; alt=&quot;A Storyboard of a small Twine Story with three normal passages and three configuration passages&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This is the small story that I will use as an example for background music in Twine.&lt;/p&gt;
-
-&lt;p&gt;To add music to it you need to first create a folder, where you are goint to export your Story into. I called mine “Twine Projects” and to keep it tidy, I also created a folder inside this project folder, with the name “audio”.
-&lt;img src=&quot;/images/posts/20180805-folder-structure.png&quot; alt=&quot;A folder inside a folder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Inside this folder (“audio”) I saved the music, that I want to use in my story. The file has the name &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Daniel_Birch_-_05_-_Sinking_In_The_Rain.mp3&quot;&lt;/code&gt;, so to reference this file from the project folder, the path would be &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;audio/Daniel_Birch_-_05_-_Sinking_In_The_Rain.mp3&quot;&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;To have it play from the beginning, I use some simple lines of JavaScript in the Story JavaScript file:&lt;/p&gt;
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;backgroundAudio&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'audio'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;backgroundAudio&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;src&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'audio/Daniel_Birch_-_05_-_Sinking_In_The_Rain.mp3'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;backgroundAudio&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;loop&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;backgroundAudio&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;volume&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;backgroundAudio&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;play&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;This is basically the way to do it that is show by the DigitalExposure Youtube video &lt;a href=&quot;https://www.youtube.com/watch?v=bm9Lvd1Qg4Y&quot;&gt;Twine 2.0 - how to Add Music / Tutorial #15&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;solving-the-chrome-autoplay-issue&quot;&gt;Solving the Chrome Autoplay Issue&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://knut.codes/twine/2018-08-background-music/Techniktest.html&quot;&gt;before&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://knut.codes/twine/2018-08-background-music/Techniktest_for_Chrome.html&quot;&gt;after&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;You can download both examples, the one that works in Chrome and the one that does not here as a zip file:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://knut.codes/twine/2018-08-background-music/2018-08-background-music.zip&quot;&gt;Examples&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;credits&quot;&gt;Credits&lt;/h1&gt;
-
-&lt;p&gt;The background music in this example is &lt;a href=&quot;http://freemusicarchive.org/music/Daniel_Birch/Ambient_Vol3/Sinking_In_The_Rain&quot;&gt;Sinking in the Rain by Daniel Birch&lt;/a&gt;.
-I got the basics on how to add background music to a Twine story from &lt;a href=&quot;https://www.youtube.com/watch?v=bm9Lvd1Qg4Y&quot;&gt;Youtube tutorial by DigitalExposureTV&lt;/a&gt;.
-For the version that also works on Google Chrome:
-I learned how to create JavaScript functions that can be accessed from inside a story from a &lt;a href=&quot;https://www.youtube.com/watch?v=JjRoHAO6nAQ&quot;&gt;Video by Dan Cox&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 05 Aug 2018 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2018/08/05/twine-background-music/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/08/05/twine-background-music/</guid>
+        <pubDate>Fri, 14 Sep 2018 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2018/09/14/caring-games/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/09/14/caring-games/</guid>
         
         
         <category>game-dev</category>
         
-        <category>interactive-storytelling</category>
-        
-        <category>twine</category>
+        <category>game-studies</category>
         
       </item>
     
@@ -265,31 +180,6 @@ Another, not topic related cause might be also about fun: the cs50 courses are u
         <category>game-dev</category>
         
         <category>GD50</category>
-        
-      </item>
-    
-      <item>
-        <title>Star Trek Musings: From modern rationalist to postmodern multicultural</title>
-        <description>
-</description>
-        <pubDate>Thu, 24 May 2018 01:31:00 +0200</pubDate>
-        <link>http://localhost:4000/2018/05/24/star-trek-post-modernism/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/05/24/star-trek-post-modernism/</guid>
-        
-        
-        <category>star trek</category>
-        
-      </item>
-    
-      <item>
-        <title>Diamonds, Chinese Religion and Walter Benjamin</title>
-        <description></description>
-        <pubDate>Thu, 24 May 2018 01:31:00 +0200</pubDate>
-        <link>http://localhost:4000/2018/05/24/aura-of-the-original/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/05/24/aura-of-the-original/</guid>
-        
-        
-        <category>philosophy</category>
         
       </item>
     
@@ -501,6 +391,32 @@ Another, not topic related cause might be also about fun: the cs50 courses are u
         <category>cnc2018</category>
         
         <category>blog-more</category>
+        
+      </item>
+    
+      <item>
+        <title>Happy New Year!</title>
+        <description>&lt;p&gt;Throughout the years that I have lived with and on the internet, I have started a lot of blogs, tumblr-accounts and similar projects. Some lived quite a while, others died quickly out of neglect.&lt;/p&gt;
+
+&lt;p&gt;This is one such start.&lt;/p&gt;
+
+&lt;p&gt;Instead of a political blog (&lt;a href=&quot;https://web.archive.org/web/20110421033029/http://doxanthropos.bplaced.net:80/&quot;&gt;done that&lt;/a&gt;) or a blog filled with random musings about life and elearning (&lt;a href=&quot;https://doxanthropos.wordpress.com/&quot;&gt;done that also&lt;/a&gt;) or other topics that might be worth blogging about, this will be centered around writing code and doing nice creative things with computers. Other tangential topics might sneak in, but the main goal for creating this is to have a &lt;a href=&quot;https://www.inventwithcode.com/start-a-developer-blog/&quot;&gt;developer blog&lt;/a&gt;/learners journal&lt;/p&gt;
+
+&lt;p&gt;But why start a blog like this, instead of posting articles on Facebook, Tumblr, Wordpress.com, Medium or any other social blogging platform out there? Why put stupid, simple, static html-files out there?&lt;/p&gt;
+
+&lt;p&gt;One reason is that it is fun. Blogging with &lt;a href=&quot;http://www.ringfahndung.de/reclaim-your-blog-nu/&quot;&gt;VIM&lt;/a&gt;, &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; and &lt;a href=&quot;http://surge.sh/&quot;&gt;Surge.sh&lt;/a&gt; is simplistic in a nice way (I already wrote abut this kind of simplicity &lt;a href=&quot;https://web.archive.org/web/20110511164245/http://doxanthropos.bplaced.net:80/2010/11/spartaner-am-rechner/&quot;&gt;on my oldest blog&lt;/a&gt;, a topic, that I might revisit here some day).&lt;/p&gt;
+
+&lt;p&gt;Another reason is the (maybe silly) idea to keep in control of my creation. Using a blogging service like Tumblr or Wordpress, or a social media platform like Facebook (or again Tumblr) always means, giving away your content into the hands of others, who might have the same ideas how to present it or how to frame it, but they also might not.&lt;/p&gt;
+
+&lt;p&gt;From a more mainstream media critical perspective, this has also the intent of being part of a small revolution, that has been active and fighting the change of what the web is. There are still people out there who think that the web might be something else than just a tool for Facebook and Google to operate their business. A network of people and websites, that are small, independent and free.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 01 Jan 2018 02:05:27 +0100</pubDate>
+        <link>http://localhost:4000/2018/01/01/happy-new-year/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/01/01/happy-new-year/</guid>
+        
+        
+        <category>100days</category>
         
       </item>
     
