@@ -1,17 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Doxanthropos</title>
-    <description>A blog about learning, coding and finding creative ways to do both.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 23 Sep 2018 11:28:49 +0200</pubDate>
-    <lastBuildDate>Sun, 23 Sep 2018 11:28:49 +0200</lastBuildDate>
-    <generator>Jekyll v3.8.3</generator>
-    
-      <item>
-        <title>Caring Games</title>
-        <description>&lt;p&gt;This is a personal compilation of the answers to this question:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Doxanthropos</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2018-09-23T11:28:49+02:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>Knut Jackowski</name>
+   <email>doxanthropos@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Caring Games</title>
+   <link href="http://localhost:4000/2018/09/14/caring-games/"/>
+   <updated>2018-09-14T00:00:00+02:00</updated>
+   <id>http://localhost:4000/2018/09/14/caring-games</id>
+   <content type="html">&lt;p&gt;This is a personal compilation of the answers to this question:&lt;/p&gt;
 
 &lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;de&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;I want &amp;quot;healing&amp;quot; to be a genre of games. It&amp;#39;s means they&amp;#39;re touching, gentle, warm and/or make you feel healed when you&amp;#39;re done. Are there any games you&amp;#39;d put in this category? (They can still be intense or even scary at times, but overall healing.)&lt;/p&gt;&amp;mdash; Der Zack (@williamzwood) &lt;a href=&quot;https://twitter.com/williamzwood/status/1039062614687416320?ref_src=twsrc%5Etfw&quot;&gt;10. September 2018&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
@@ -64,21 +70,15 @@
 &lt;p&gt;A talk: &lt;a href=&quot;https://www.youtube.com/watch?v=DBw-6UfPxXs&quot;&gt;Intimacy Games: Unlocking The Inner Heart Of Fighting Games&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;While his games is not available yet, through &lt;a href=&quot;https://twitter.com/jacopocolo&quot;&gt;@jacopocolo&lt;/a&gt; I learned about the artist James Turrell.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 14 Sep 2018 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2018/09/14/caring-games/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/09/14/caring-games/</guid>
-        
-        
-        <category>game-dev</category>
-        
-        <category>game-studies</category>
-        
-      </item>
-    
-      <item>
-        <title>GD50 Lecture 1 - Pong: What I have learned</title>
-        <description>&lt;ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>GD50 Lecture 1 - Pong: What I have learned</title>
+   <link href="http://localhost:4000/2018/07/12/from-lecture01-pong/"/>
+   <updated>2018-07-12T00:00:00+02:00</updated>
+   <id>http://localhost:4000/2018/07/12/from-lecture01-pong</id>
+   <content type="html">&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;#delta-time&quot;&gt;Delta Time&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#versions-of-löve2d-matter&quot;&gt;Versions of Löve2D matter&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#virtual-width-and-height&quot;&gt;Virtual Width and Height&lt;/a&gt;&lt;/li&gt;
@@ -141,25 +141,15 @@ For minimalist retro games, like Pong and probably most of the other games of th
 
 &lt;p&gt;Let’s see what the other lectures will bring.&lt;/p&gt;
 
-</description>
-        <pubDate>Thu, 12 Jul 2018 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2018/07/12/from-lecture01-pong/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/07/12/from-lecture01-pong/</guid>
-        
-        
-        <category>game-dev</category>
-        
-        <category>GD50</category>
-        
-        <category>lua</category>
-        
-        <category>love2d</category>
-        
-      </item>
-    
-      <item>
-        <title>Why learning about Game Development?</title>
-        <description>&lt;p&gt;I’m not a software developer (but that may change) and do not aspire to become a professional game developer. But I am taking the Harvard course on game development called &lt;a href=&quot;https://www.edx.org/course/cs50s-introduction-to-game-development&quot;&gt;GD50&lt;/a&gt;, which is a part of the growing collection of learning resources associated with the &lt;a href=&quot;https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x&quot;&gt;CS50 Introduction to Computer Science&lt;/a&gt; course at Harvard. Why bother to learn this?&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Why learning about Game Development?</title>
+   <link href="http://localhost:4000/2018/07/05/why-GD50/"/>
+   <updated>2018-07-05T00:00:00+02:00</updated>
+   <id>http://localhost:4000/2018/07/05/why-GD50</id>
+   <content type="html">&lt;p&gt;I’m not a software developer (but that may change) and do not aspire to become a professional game developer. But I am taking the Harvard course on game development called &lt;a href=&quot;https://www.edx.org/course/cs50s-introduction-to-game-development&quot;&gt;GD50&lt;/a&gt;, which is a part of the growing collection of learning resources associated with the &lt;a href=&quot;https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x&quot;&gt;CS50 Introduction to Computer Science&lt;/a&gt; course at Harvard. Why bother to learn this?&lt;/p&gt;
 
 &lt;p&gt;Programming today to me is part hobby, part professional tool.
 I use my programming skills at work to automate processes and to provide features to online courses that are not possible with the features of the authoring tool we are using alone. So it is not at the center of my work, but an available tool that I sometimes use, sometimes not.
@@ -170,21 +160,15 @@ In the last years, I have seen the rise of the indy game scene and with it the i
 On the professional side, I think there is a lot to learn in game development, that is transferable to other sides of development, be it web development or my current field of work, instructional design. Some of it has been called “gamification” in the last year and this seems to have had its hype, but I think taking a look at real game development instead of learning about gamification directly (which I have to some extent already done, of course), will help with questions like “How do I make something fun?”
 Another, not topic related cause might be also about fun: the cs50 courses are usually fun.&lt;/p&gt;
 
-</description>
-        <pubDate>Thu, 05 Jul 2018 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2018/07/05/why-GD50/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/07/05/why-GD50/</guid>
-        
-        
-        <category>game-dev</category>
-        
-        <category>GD50</category>
-        
-      </item>
-    
-      <item>
-        <title>Game Idea: Scream Maze</title>
-        <description>&lt;p&gt;&lt;strong&gt;TLDR&lt;/strong&gt;: I thought about what I would like to built: A “horror” maze game, where you have to scream to move.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Game Idea: Scream Maze</title>
+   <link href="http://localhost:4000/2018/02/07/screammaze/"/>
+   <updated>2018-02-07T00:00:00+01:00</updated>
+   <id>http://localhost:4000/2018/02/07/screammaze</id>
+   <content type="html">&lt;p&gt;&lt;strong&gt;TLDR&lt;/strong&gt;: I thought about what I would like to built: A “horror” maze game, where you have to scream to move.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;#will-there-be-a-maze&quot;&gt;Will there be a maze?&lt;/a&gt;&lt;/li&gt;
@@ -243,21 +227,15 @@ Another, not topic related cause might be also about fun: the cs50 courses are u
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
-</description>
-        <pubDate>Wed, 07 Feb 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2018/02/07/screammaze/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/02/07/screammaze/</guid>
-        
-        
-        <category>game-dev</category>
-        
-        <category>code-more</category>
-        
-      </item>
-    
-      <item>
-        <title>#CNC2018 Code More: Pre-Mission</title>
-        <description>&lt;ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>#CNC2018 Code More: Pre-Mission</title>
+   <link href="http://localhost:4000/2018/01/22/pre-mission-ii/"/>
+   <updated>2018-01-22T00:00:00+01:00</updated>
+   <id>http://localhost:4000/2018/01/22/pre-mission-ii</id>
+   <content type="html">&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;#what-has-worked&quot;&gt;What has worked?&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#what-has-not-worked&quot;&gt;What has NOT worked?&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#what-are-your-long-term-goals&quot;&gt;What are your long-term goals?&lt;/a&gt;&lt;/li&gt;
@@ -308,21 +286,15 @@ Another, not topic related cause might be also about fun: the cs50 courses are u
 
 &lt;p&gt;My short term goal for this challenge is to get into a more solid habit of regular coding and learning to trust my skills and ability to learn what I need to build something bigger than just variations of tutorials.&lt;/p&gt;
 
-</description>
-        <pubDate>Mon, 22 Jan 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2018/01/22/pre-mission-ii/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/01/22/pre-mission-ii/</guid>
-        
-        
-        <category>cnc2018</category>
-        
-        <category>code-more</category>
-        
-      </item>
-    
-      <item>
-        <title>#CNC2018 Blog More: Pre-Mission</title>
-        <description>&lt;ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>#CNC2018 Blog More: Pre-Mission</title>
+   <link href="http://localhost:4000/2018/01/19/pre-mission-i/"/>
+   <updated>2018-01-19T00:00:00+01:00</updated>
+   <id>http://localhost:4000/2018/01/19/pre-mission-i</id>
+   <content type="html">&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;#the-tutorial-webrtc-video-chat-in-20-lines-of-javascript&quot;&gt;The Tutorial: WebRTC Video Chat in 20 Lines of JavaScript&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#the-explainer-drawing-from-noise-and-then-making-animated-loopy-gifs-from-there&quot;&gt;The Explainer: Drawing from noise, and then making animated loopy GIFs from there.&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#the-project-how-i-set-up-an-automatic-weekly-blog-digest&quot;&gt;The Project: How I set up an automatic weekly blog digest&lt;/a&gt;&lt;/li&gt;
@@ -381,21 +353,15 @@ Another, not topic related cause might be also about fun: the cs50 courses are u
 
 &lt;p&gt;I’m curious about the next (first) mission.&lt;/p&gt;
 
-</description>
-        <pubDate>Fri, 19 Jan 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2018/01/19/pre-mission-i/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/01/19/pre-mission-i/</guid>
-        
-        
-        <category>cnc2018</category>
-        
-        <category>blog-more</category>
-        
-      </item>
-    
-      <item>
-        <title>Happy New Year!</title>
-        <description>&lt;p&gt;Throughout the years that I have lived with and on the internet, I have started a lot of blogs, tumblr-accounts and similar projects. Some lived quite a while, others died quickly out of neglect.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Happy New Year!</title>
+   <link href="http://localhost:4000/2018/01/01/happy-new-year/"/>
+   <updated>2018-01-01T02:05:27+01:00</updated>
+   <id>http://localhost:4000/2018/01/01/happy-new-year</id>
+   <content type="html">&lt;p&gt;Throughout the years that I have lived with and on the internet, I have started a lot of blogs, tumblr-accounts and similar projects. Some lived quite a while, others died quickly out of neglect.&lt;/p&gt;
 
 &lt;p&gt;This is one such start.&lt;/p&gt;
 
@@ -409,15 +375,8 @@ Another, not topic related cause might be also about fun: the cs50 courses are u
 
 &lt;p&gt;From a more mainstream media critical perspective, this has also the intent of being part of a small revolution, that has been active and fighting the change of what the web is. There are still people out there who think that the web might be something else than just a tool for Facebook and Google to operate their business. A network of people and websites, that are small, independent and free.&lt;/p&gt;
 
-</description>
-        <pubDate>Mon, 01 Jan 2018 02:05:27 +0100</pubDate>
-        <link>http://localhost:4000/2018/01/01/happy-new-year/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/01/01/happy-new-year/</guid>
-        
-        
-        <category>100days</category>
-        
-      </item>
-    
-  </channel>
-</rss>
+</content>
+ </entry>
+ 
+
+</feed>
