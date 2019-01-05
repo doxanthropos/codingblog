@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Doxanthropos</title>
- <link href="http://doxanthropos.com/atom.xml" rel="self"/>
- <link href="http://doxanthropos.com/"/>
- <updated>2018-10-19T12:35:07+02:00</updated>
- <id>http://doxanthropos.com</id>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2019-01-05T16:48:37+01:00</updated>
+ <id>http://localhost:4000</id>
  <author>
    <name>Knut Jackowski</name>
    <email>doxanthropos@gmail.com</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Caring Games</title>
-   <link href="http://doxanthropos.com/2018/09/14/caring-games/"/>
+   <link href="http://localhost:4000/2018/09/14/caring-games/"/>
    <updated>2018-09-14T00:00:00+02:00</updated>
-   <id>http://doxanthropos.com/2018/09/14/caring-games</id>
+   <id>http://localhost:4000/2018/09/14/caring-games</id>
    <content type="html">&lt;p&gt;This is a personal compilation of the answers to this question:&lt;/p&gt;
 
 &lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;de&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;I want &amp;quot;healing&amp;quot; to be a genre of games. It&amp;#39;s means they&amp;#39;re touching, gentle, warm and/or make you feel healed when you&amp;#39;re done. Are there any games you&amp;#39;d put in this category? (They can still be intense or even scary at times, but overall healing.)&lt;/p&gt;&amp;mdash; Der Zack (@williamzwood) &lt;a href=&quot;https://twitter.com/williamzwood/status/1039062614687416320?ref_src=twsrc%5Etfw&quot;&gt;10. September 2018&lt;/a&gt;&lt;/blockquote&gt;
@@ -75,9 +75,9 @@
  
  <entry>
    <title>GD50 Lecture 1 - Pong: What I have learned</title>
-   <link href="http://doxanthropos.com/2018/07/12/from-lecture01-pong/"/>
+   <link href="http://localhost:4000/2018/07/12/from-lecture01-pong/"/>
    <updated>2018-07-12T00:00:00+02:00</updated>
-   <id>http://doxanthropos.com/2018/07/12/from-lecture01-pong</id>
+   <id>http://localhost:4000/2018/07/12/from-lecture01-pong</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;#delta-time&quot;&gt;Delta Time&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#versions-of-löve2d-matter&quot;&gt;Versions of Löve2D matter&lt;/a&gt;&lt;/li&gt;
@@ -146,9 +146,9 @@ For minimalist retro games, like Pong and probably most of the other games of th
  
  <entry>
    <title>Why learning about Game Development?</title>
-   <link href="http://doxanthropos.com/2018/07/05/why-GD50/"/>
+   <link href="http://localhost:4000/2018/07/05/why-GD50/"/>
    <updated>2018-07-05T00:00:00+02:00</updated>
-   <id>http://doxanthropos.com/2018/07/05/why-GD50</id>
+   <id>http://localhost:4000/2018/07/05/why-GD50</id>
    <content type="html">&lt;p&gt;I’m not a software developer (but that may change) and do not aspire to become a professional game developer. But I am taking the Harvard course on game development called &lt;a href=&quot;https://www.edx.org/course/cs50s-introduction-to-game-development&quot;&gt;GD50&lt;/a&gt;, which is a part of the growing collection of learning resources associated with the &lt;a href=&quot;https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x&quot;&gt;CS50 Introduction to Computer Science&lt;/a&gt; course at Harvard. Why bother to learn this?&lt;/p&gt;
 
 &lt;p&gt;Programming today to me is part hobby, part professional tool.
@@ -165,9 +165,9 @@ Another, not topic related cause might be also about fun: the cs50 courses are u
  
  <entry>
    <title>Game Idea: Scream Maze</title>
-   <link href="http://doxanthropos.com/2018/02/07/screammaze/"/>
+   <link href="http://localhost:4000/2018/02/07/screammaze/"/>
    <updated>2018-02-07T00:00:00+01:00</updated>
-   <id>http://doxanthropos.com/2018/02/07/screammaze</id>
+   <id>http://localhost:4000/2018/02/07/screammaze</id>
    <content type="html">&lt;p&gt;&lt;strong&gt;TLDR&lt;/strong&gt;: I thought about what I would like to built: A “horror” maze game, where you have to scream to move.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -232,9 +232,9 @@ Another, not topic related cause might be also about fun: the cs50 courses are u
  
  <entry>
    <title>#CNC2018 Code More: Pre-Mission</title>
-   <link href="http://doxanthropos.com/2018/01/22/pre-mission-ii/"/>
+   <link href="http://localhost:4000/2018/01/22/pre-mission-ii/"/>
    <updated>2018-01-22T00:00:00+01:00</updated>
-   <id>http://doxanthropos.com/2018/01/22/pre-mission-ii</id>
+   <id>http://localhost:4000/2018/01/22/pre-mission-ii</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;#what-has-worked&quot;&gt;What has worked?&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#what-has-not-worked&quot;&gt;What has NOT worked?&lt;/a&gt;&lt;/li&gt;
@@ -291,9 +291,9 @@ Another, not topic related cause might be also about fun: the cs50 courses are u
  
  <entry>
    <title>#CNC2018 Blog More: Pre-Mission</title>
-   <link href="http://doxanthropos.com/2018/01/19/pre-mission-i/"/>
+   <link href="http://localhost:4000/2018/01/19/pre-mission-i/"/>
    <updated>2018-01-19T00:00:00+01:00</updated>
-   <id>http://doxanthropos.com/2018/01/19/pre-mission-i</id>
+   <id>http://localhost:4000/2018/01/19/pre-mission-i</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;#the-tutorial-webrtc-video-chat-in-20-lines-of-javascript&quot;&gt;The Tutorial: WebRTC Video Chat in 20 Lines of JavaScript&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#the-explainer-drawing-from-noise-and-then-making-animated-loopy-gifs-from-there&quot;&gt;The Explainer: Drawing from noise, and then making animated loopy GIFs from there.&lt;/a&gt;&lt;/li&gt;
@@ -358,9 +358,9 @@ Another, not topic related cause might be also about fun: the cs50 courses are u
  
  <entry>
    <title>Happy New Year!</title>
-   <link href="http://doxanthropos.com/2018/01/01/happy-new-year/"/>
+   <link href="http://localhost:4000/2018/01/01/happy-new-year/"/>
    <updated>2018-01-01T02:05:27+01:00</updated>
-   <id>http://doxanthropos.com/2018/01/01/happy-new-year</id>
+   <id>http://localhost:4000/2018/01/01/happy-new-year</id>
    <content type="html">&lt;p&gt;Throughout the years that I have lived with and on the internet, I have started a lot of blogs, tumblr-accounts and similar projects. Some lived quite a while, others died quickly out of neglect.&lt;/p&gt;
 
 &lt;p&gt;This is one such start.&lt;/p&gt;
